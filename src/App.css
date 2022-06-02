@@ -1,0 +1,29 @@
+.quote-box{
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    width: 40%;
+    background-color: #fff;
+    gap: 20px;
+    margin: 40px;
+}
+.App{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.quote-btn{
+    padding: 10px;
+    height: 70px;
+    aspect-ratio: 1;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    left: 50%;
+    transform: translateX(-100%);
+}
